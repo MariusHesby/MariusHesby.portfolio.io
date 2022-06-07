@@ -2,6 +2,8 @@
 const nextConfig = {
   images: {
     domains: ['links.papareact.com'],
+    loader: "akamai",
+    path: "",
   },
   reactStrictMode: true,
 };
