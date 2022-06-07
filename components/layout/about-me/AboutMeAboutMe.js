@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutMeAboutMe() {
   return (
-    <div className="bg-red-100 px-5 sm:px-10 grid content-center py-14">
+    <div className="bg-pink-500 px-5 sm:px-10 grid content-center py-14">
       <h2>About me</h2>
       <p>Born and raised in Sandnes, the recently elected "most attractive city in Norway"</p>
 
