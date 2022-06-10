@@ -17,8 +17,8 @@ function JavascriptFrameWorksCA() {
 
 
         <div className="links flex justify-evenly my-7 text-blue-700">
-          <a href="http://vg.no">Github</a>
-          <a href="http://vg.no">Live</a>
+          <a href="https://github.com/MariusHesby/rickandmorty2">Github</a>
+          <a href="https://mariushesby-rickandmorty2.netlify.app/">Live</a>
         </div>
         <p>A website build for..Workflow CA</p>
 
