@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "ADELIA";
+  font-family: "Gobold";
   src: url("../public/assets/fonts/Gobold.otf");
 }
 
@@ -15,13 +15,13 @@
   @apply font-poppins text-lg;
   }
   h1 {
-  @apply text-5xl md:text-5xl lg:text-6xl leading-tight xs:leading-tight md:leading-tight lg:leading-tight xl:leading-tight font-gobold text-center mb-14;
+  @apply font-gobold text-5xl md:text-5xl lg:text-6xl leading-tight xs:leading-tight md:leading-tight lg:leading-tight xl:leading-tight text-center mb-20;
   }
   h1 span {
   @apply text-webRed;
   }
   h2 {
-  @apply flex text-5xl mb-7 mb-14;
+  @apply flex text-4xl sm:text-5xl mb-14;
   }
   h3 {
   @apply mb-7 inline-flex items-center border-b border-gray-500 px-3 py-6 text-2xl rounded bg-white;

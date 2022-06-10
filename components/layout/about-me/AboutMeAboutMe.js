@@ -18,7 +18,7 @@ export default function AboutMeAboutMe() {
 
       <p>My preffered tech stack:</p>
 
-      <div className="relative h-52">
+      <div className="relative h-48">
         <Image src="/assets/images/techstack.png" layout="fill" objectFit="contain" objectPosition="center" alt="" />
       </div>
 
