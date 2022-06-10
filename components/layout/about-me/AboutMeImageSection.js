@@ -14,9 +14,9 @@ export default function AboutMeImageSection() {
   ];
   return (
 
-    <div className="bg-blue-100 p-5 sm:p-10 grid content-center grid-cols-3 gap-10 h-screen">
+    <div className="px-5 py-14 lg:p-16 xl:p-24 grid content-center grid-cols-3 gap-10 md:h-screen">
       {images.map((img, i) => (
-        <Image className="object-contain" src={img} width="300px" height="400px" alt="" key={i} />
+        <Image className="object-contain" src={img} width="300px" height="400px" alt="Marius" key={i} />
       ))}
     </div>
   );

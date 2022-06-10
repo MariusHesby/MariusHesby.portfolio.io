@@ -1,8 +1,8 @@
-import Contactform from './../../content/ContactForm';
+import Contactform from '../../content/contactform/ContactForm';
 
 export default function AboutMeContactform() {
   return (
-    <div className="bg-green-100 px-5 sm:px-10 grid py-14">
+    <div className="px-5 py-14 sm:px-10 sm:py-28 grid">
       <Contactform />
     </div>
   );

@@ -12,36 +12,45 @@
   @apply scroll-smooth;
   }
   body {
-  @apply font-poppins text-lg  mb-0 pb-0;
+  @apply font-poppins text-lg;
   }
   h1 {
-  @apply text-3xl sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight sm:bg-green-100 md:bg-yellow-100 lg:bg-red-200 xl:bg-blue-100 font-gobold text-center md:text-right mb-14;
+  @apply text-5xl md:text-5xl lg:text-6xl leading-tight xs:leading-tight md:leading-tight lg:leading-tight xl:leading-tight font-gobold text-center mb-14;
   }
   h1 span {
   @apply text-webRed;
   }
   h2 {
-  @apply flex text-5xl mb-14;
+  @apply flex text-5xl mb-7 mb-14;
   }
   h3 {
-  @apply mb-7 inline-flex items-center border border-gray-500 p-3 text-2xl rounded bg-white;
+  @apply mb-7 inline-flex items-center border-b border-gray-500 px-3 py-6 text-2xl rounded bg-white;
   }
   p {
   @apply mb-14;
   }
-  button {
-  @apply tracking-widest text-xl sm:text-2xl flex cursor-pointer rounded-md transition-all duration-200 ease-in;
+  a {
+    @apply transition-all duration-200 ease-in-out; 
   }
-  button.my-work {
-  @apply  py-3 px-8 -space-x-6 bg-webRed text-white hover:bg-webRedDark max-w-fit;
+  .active {
+  @apply border-2 border-blue-700 scale-125 shadow-2xl;
   }
-  button.about-me {
-  @apply  py-3 px-4 items-center space-x-4 bg-webGray text-white hover:bg-webGrayDark max-w-fit;
+  .button {
+  @apply tracking-widest text-xl sm:text-2xl flex cursor-pointer rounded-md hover:scale-125 transition-all duration-500 ease-in-out;
+  }
+  .button.my-work {
+  @apply py-3 px-4 bg-webRed text-white hover:bg-webRedDark max-w-fit relative transition-all duration-500 ease-out;
+  }
+  .button.about-me {
+  @apply p-3 bg-webGray text-white hover:bg-webGrayDark max-w-fit relative transition-all duration-500 ease-out;
   }
   button.submit {
   @apply py-5 px-3 flex justify-center font-gobold border border-black bg-webBrown text-white mx-auto rounded w-full transition-colors duration-150;
   }
   input, textarea {
   @apply py-3 pl-3 border border-black rounded w-full;
+  }
+  .links a {
+  @apply hover:scale-125;
   }
   }
