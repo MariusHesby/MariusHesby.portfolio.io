@@ -6,14 +6,20 @@ export default function AboutMeAboutMe() {
       <h2>About me</h2>
       <p>Born and raised in Sandnes, the recently elected "most attractive city in Norway"</p>
 
-      <div className="relative h-80 mb-14">
+      <div className="relative h-72 mb-14">
         <Image src="/assets/images/map.jpg" layout="fill" objectFit="cover" objectPosition="left" alt="" />
       </div>
 
       <p>Married to Malin, with whom I have two amazing boys, Theodor and Abel.</p>
 
+      <div className="relative h-72 mb-14">
+        <Image src="/assets/images/malin.jpeg" layout="fill" objectFit="cover" objectPosition="center" alt="" />
+      </div>
+
+      <p>My preffered tech stack:</p>
+
       <div className="relative h-52">
-        <Image src="/assets/images/malin.jpeg" layout="fill" objectFit="cover" alt="" />
+        <Image src="/assets/images/techstack.png" layout="fill" objectFit="contain" objectPosition="center" alt="" />
       </div>
 
     </div>

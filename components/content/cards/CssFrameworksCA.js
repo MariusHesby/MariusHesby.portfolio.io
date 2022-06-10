@@ -15,8 +15,8 @@ function JavascriptFrameWorksCA() {
         </div>
 
         <div className="links flex justify-evenly my-7 text-blue-700">
-          <a href="http://vg.no">Github</a>
-          <a href="http://vg.no">Live</a>
+          <a href="https://github.com/MariusHesby/tyc">Github</a>
+          <a href="https://mariushesby-theyaycompany.netlify.app/">Live</a>
         </div>
 
         <p>A website build for..CSS Frameworks CA.. Bootstrap</p>
