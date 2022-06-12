@@ -15,7 +15,7 @@
   @apply font-poppins text-lg;
   }
   h1 {
-  @apply font-gobold text-5xl md:text-5xl lg:text-6xl leading-tight xs:leading-tight md:leading-tight lg:leading-tight xl:leading-tight text-center mb-20;
+  @apply font-gobold text-4xl md:text-5xl lg:text-6xl leading-tight xs:leading-tight md:leading-tight lg:leading-tight xl:leading-tight text-center mb-20;
   }
   h1 span {
   @apply text-webRed;
