@@ -19,8 +19,8 @@ function JavascriptFrameworksCA() {
           <a href="https://mariushesby-rickandmorty.netlify.app/">Live</a>
         </div>
 
-        <p>A website build for..JS Frameworks CA</p>
-
+        <p>School project: find an api and return an array. Create a login page using Wordpress. Use Next.js.</p>
+        <p>Javascript Frameworks Course Assignment</p>
       </div>
 
     </div>

@@ -20,7 +20,8 @@ function JavascriptFrameWorksCA() {
           <a href="https://github.com/MariusHesby/rickandmorty2">Github</a>
           <a href="https://mariushesby-rickandmorty2.netlify.app/">Live</a>
         </div>
-        <p>A website build for..Workflow CA</p>
+        <p>School project: convert functions to Typescript. Write passing tests. Find a free GraphQL API and make a call that returns an array of results.</p>
+        <p>Workflow Course Assignment</p>
 
       </div>
 

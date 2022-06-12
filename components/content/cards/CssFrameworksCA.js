@@ -19,7 +19,9 @@ function JavascriptFrameWorksCA() {
           <a href="https://mariushesby-theyaycompany.netlify.app/">Live</a>
         </div>
 
-        <p>A website build for..CSS Frameworks CA.. Bootstrap</p>
+        <p>School project: from the supplied design, use Bootstrap or React Bootstrap to create a responsive website. Use HTML, Sass and Google Fonts.
+        </p>
+        <p>CSS Frameworks Course Assignment</p>
 
       </div>
 
