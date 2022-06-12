@@ -6,6 +6,7 @@ export default function IndexHeading() {
     <div className="h-screen px-5 sm:px-10 grid content-center relative">
       <ProfileImg />
       <h1>I create<br /><span>fast, </span><span>simple </span>and<span><br />solid </span>websites<br />- that work!</h1>
+      <p>Remember to check out my <a href="https://github.com/MariusHesby">GitHub page</a></p>
       <Nav />
     </div>
   );
