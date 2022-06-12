@@ -15,10 +15,3 @@ function ProfileImg() {
 }
 
 export default ProfileImg;
-
-{/* <Link href="/" passHref>
-  <a className={router.pathname == "/" ? "button my-work active" : "button my-work"}>
-    <BriefcaseIcon className="h-7 w-7 absolute top-3 left-3" />
-    <span className="text-right font-gobold">My<br />work</span>
-  </a>
-</Link>; */}

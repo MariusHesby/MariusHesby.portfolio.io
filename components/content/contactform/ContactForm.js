@@ -10,9 +10,6 @@ const schema = yup.object().shape({
     subject: yup.string().required("Please choose a subject"),
     message: yup.string().min(10, "Message must be at least 10 characters").required("Please enter a message"),
 
-
-    // age: yup.number().required("Please enter your age").min(10, "Age must be between 10 and 20"),
-    // website: yup.string().required("Please enter your e-mail").min(10, "The e-mail must be a valid URL"),
 });
 
 function ContactForm() {
@@ -28,7 +25,6 @@ function ContactForm() {
 
     return (
         <div className="grid">
-
 
             <form onSubmit={handleSubmit(onSubmit)} className="md:max-w-lg">
                 <h2>Contact me</h2>
@@ -59,7 +55,6 @@ function ContactForm() {
                 <button type="submit" className="submit">Submit</button>
             </form>
         </div>
-
     );
 }
 

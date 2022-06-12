@@ -1,5 +1,5 @@
-import ProfileImg from './../global/ProfileImg';
-import Nav from '../global/Nav';
+import ProfileImg from '../../layout/global/ProfileImg';
+import Nav from '../../layout/global/Nav';
 
 export default function IndexHeading() {
   return (

@@ -1,4 +1,3 @@
-// import PropTypes from "prop-types";
 import NextHead from "next/head";
 
 export default function Head({ title = "" }) {
@@ -16,7 +15,3 @@ export default function Head({ title = "" }) {
         </NextHead>
     );
 }
-
-// Head.propTypes = {
-//     title: PropTypes.string,
-// };

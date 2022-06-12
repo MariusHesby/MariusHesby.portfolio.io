@@ -1,6 +1,6 @@
-import JavascriptFrameworksCA from '../../content/cards/JavascriptFrameworksCA';
-import CssFrameworksCA from '../../content/cards/CssFrameworksCA';
-import WorkflowCA from '../../content/cards/WorkflowCA';
+import JavascriptFrameworksCA from './cards/JavascriptFrameworksCA';
+import CssFrameworksCA from './cards/CssFrameworksCA';
+import WorkflowCA from './cards/WorkflowCA';
 
 export default function IndexProjects() {
   return (

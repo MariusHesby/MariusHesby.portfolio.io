@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
-import IndexHeading from '../components/layout/index/IndexHeading';
-import IndexGif from '../components/layout/index/IndexGif';
-import IndexProjects from '../components/layout/index/IndexProjects';
+import IndexHeading from '../components/content/index/IndexHeading';
+import IndexGif from '../components/content/index/IndexGif';
+import IndexProjects from '../components/content/index/IndexProjects';
 
 
 const Home: NextPage = () => {
